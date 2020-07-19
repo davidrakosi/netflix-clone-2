@@ -4,7 +4,7 @@ import './Row.css'
 import YouTube from 'react-youtube'
 import movieTrailer from 'movie-trailer'
 
-const posterBaseUrl = "http://image.tmdb.org/t/p/original"
+const posterBaseUrl = "https://image.tmdb.org/t/p/original"
 
 function Row({ title, fetchUrl, isLargeRow }) {
     const [movies, setMovies] = useState([])
